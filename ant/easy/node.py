@@ -130,7 +130,7 @@ class Node():
 
     def stop(self):
         if self._running:
-            _logger.debug("Stoping ant.easy")
+            _logger.debug("Stopping ant.easy")
             self._running = False
             self.ant.stop()
             self._worker_thread.join()

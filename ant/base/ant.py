@@ -77,7 +77,7 @@ class Ant():
 
     def stop(self):
         if self._running:
-            _logger.debug("Stoping ant.base")
+            _logger.debug("Stopping ant.base")
             self._running = False
             self._worker_thread.join()
 
